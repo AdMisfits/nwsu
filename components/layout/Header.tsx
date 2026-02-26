@@ -43,6 +43,7 @@ export function Header() {
         </div>
 
         <span className="absolute left-1/2 -translate-x-1/2 flex items-center gap-1.5 font-semibold text-[14px] tracking-[-0.01em] text-navy-950">
+          <img src="/logo.png" alt="NWS" className="w-6 h-6 object-contain" />
           NWSU
         </span>
 

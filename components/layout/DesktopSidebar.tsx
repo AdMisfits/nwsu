@@ -53,9 +53,7 @@ export function DesktopSidebar() {
       {/* Logo */}
       <div className="p-6 pb-4">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-500 to-brand-400 flex items-center justify-center text-white font-bold text-[14px]">
-            NWS
-          </div>
+          <img src="/logo.png" alt="NWS University" className="w-10 h-10 rounded-xl object-contain" />
           <div>
             <h1 className="font-bold text-[17px] tracking-[-0.02em]">NWS University</h1>
             <p className="text-[11px] text-slate-400">Water Specialist Training</p>

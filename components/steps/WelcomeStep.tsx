@@ -11,9 +11,7 @@ export function WelcomeStep() {
   return (
     <>
       <div className="animate-fadeIn">
-        <div className="w-20 h-20 lg:w-24 lg:h-24 rounded-3xl bg-gradient-to-br from-[#3b82f6] to-[#60a5fa] flex items-center justify-center mx-auto mb-8 shadow-lg shadow-[#3b82f6]/20">
-          <BookIcon className="w-10 h-10 lg:w-12 lg:h-12 text-white" />
-        </div>
+        <img src="/logo.png" alt="NWS University" className="w-20 h-20 lg:w-24 lg:h-24 object-contain mx-auto mb-8" />
 
         <h1 className="text-[32px] lg:text-[40px] font-bold tracking-[-0.03em] text-center text-navy-950 mb-3">
           Welcome to NWS University
